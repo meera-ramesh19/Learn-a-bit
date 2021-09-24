@@ -27,7 +27,7 @@ h1{
 .card-container{
     display:flex;
     flex-direction:column;
-    margin-top:10rem;
+    margin-top:7rem;
 
 }
 .cards-wrapper{
