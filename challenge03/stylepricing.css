@@ -27,6 +27,7 @@ h1{
 .card-container{
     display:flex;
     flex-direction:column;
+    margin-top:10rem;
 
 }
 .cards-wrapper{
@@ -68,7 +69,7 @@ h1{
 
 
 .cards-wrapper:hover{
-    border:2px solid #FFD36A ;
+    border:4px solid #FFD36A ;
     outline:black;
     transform:scale(1.1);
 }
