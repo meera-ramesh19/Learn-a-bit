@@ -126,10 +126,10 @@ table {
   --font-size:1.5rem;
 
   /* btn specifications*/
-  --text-color:  #3A3F47;
+  --text-color:  #47443a;
   /* hsla(210, 50%, 85%, 1); */
   --shadow-color: hsla(210, 40%, 52%, .4);
-  --btn-color: 
+  --btn-color: #d6b80d;
   --bg-color: #141218;
 }
 

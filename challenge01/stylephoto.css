@@ -5,7 +5,12 @@
     padding:0;
     box-sizing:border-box;
 }
-
+:root{
+  --light-red:#cccccc;
+  --light-smoke:#333333;
+  --black:  #232932;
+  --smokey-black:#101010;
+}
 html{
 
   font-size: 62.5%;
@@ -13,7 +18,7 @@ html{
 
 body {
     font-family: "Nunito", sans-serif;
-    color: #333;
+    color: var(--light-smoke);
     font-weight: 300;
     line-height: 1.6; 
   }
@@ -30,7 +35,7 @@ body {
   
   .nav-menu li a{
     text-decoration: none;
-    color: black;
+    color: var(--black);
   }
   
    .logo{
@@ -80,7 +85,7 @@ body {
 } 
 
  .img__grid > img{
-  border: 1px solid #ccc;
+  border: 1px solid var(--light-red);
   box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
   width:100%;
   height:auto;
@@ -120,7 +125,7 @@ body {
   
   .img-grid .pic-image >img{
     
-    border: 1px solid #ccc;
+    border: 1px solid var(--light-red);
     box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
     width:auto;
     height:auto;
@@ -144,7 +149,7 @@ body {
     opacity: 0;
     transition: opacity .5s;
     background: rgba(90,0,10,0.4);
-    color: white;
+    color: var(--white);
     
     /* position the text in t’ middle*/
     display: flex;
@@ -257,7 +262,7 @@ body {
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  background-color: var(--smokey-black);
 }
 .hamburger.active{
   padding:5rem;

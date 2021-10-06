@@ -3,7 +3,10 @@
   padding:0;
   box-sizing: border-box;
 }
-
+:root{
+  --turquoise-green:#22b1aa;
+  --golden-yellow-3:#f5b625 ;
+}
 h1{
   text-align:center;
 }
@@ -17,8 +20,8 @@ h1{
 .icons{
   height: 36;
   width: 36px;
-  stroke: #22b1aa;
-  color: #22b1aa;
+  stroke: var(--turquoise-green);
+  color: var(--turquoise-green);
 }
 
 .wrapper{
@@ -30,8 +33,8 @@ h1{
   height: 36px;
   width: 36px;
   color:px;
-  stroke: #22b1aa;
-  color: #22b1aa;
+  stroke: var(--turquoise-green);
+  color: var(--turquoise-green);
 }
 .card-container{
   border:1px solid black;
@@ -39,12 +42,12 @@ h1{
   width:90%;
   padding:2rem;
   margin:1rem;
-  background-color: #f5b625  ;
+  background-color: var(--golden-yellow-3) ;
 
 }
 
 .checked{
-  color:#22b1aa;
+  color:var(--turquoise-green);
  
 }
 .header{
@@ -90,7 +93,7 @@ h1{
 }
 
 
-/* @media(min-width:700px){
+ @media(min-width:700px){
   h1{
     text-align:center;
   }
@@ -105,7 +108,7 @@ h1{
     margin: 3rem 3rem 3rem 5rem;
   }
 }
- */
+ 
 
 
 /* #232932
